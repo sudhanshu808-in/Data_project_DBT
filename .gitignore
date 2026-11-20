@@ -1,0 +1,32 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Secrets / local runtime
+.env
+profiles.yml
+airflow/logs/
+walmart_project/target/
+walmart_project/logs/
+airflow/walmart_project/target/
+airflow/walmart_project/logs/
+
+# Airflow config contains fernet/secret/jwt keys
+airflow.cfg
+
+# dbt local artifacts
+target/
+dbt_packages/
+logs/
+.user.yml
+
+# Datasets (large; download instructions in README)
+data/
+olist_dataset/
